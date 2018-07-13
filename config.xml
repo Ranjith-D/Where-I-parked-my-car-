@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Where I parked my car</name>
+    <description>
+       "Where I parked my car" is an application for mobile devices that lets you bookmark where you parked your car, and then find a route to return to it. This application is useful if you don't have a good memory or if you're in a foreign city. In addition, "Where I parked my car" will also save a log of your saved positions (up to 50), so that you can retrieve a location for future use. The list allows you to see the position on a map, and you can also to delete one or more old locations.
+    </description>
+    <author email="sanju77959@gmail.com" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <gap:splash src="splash.png" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <access origin="*" />
+    <preference name="useBrowserHistory" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <plugin name="cordova-plugin-geolocation" spec="~2.2.0" />
+    <plugin name="plugin.google.maps" spec="~1.3.9" />
+    <plugin name="cordova-plugin-dialogs" spec="~1.2.1" />
+</widget>
