@@ -18,10 +18,14 @@ To run the application follow the steps
 
 ## Built With
 > HTML
-* CSS
-* JavaScript
-* Jquery
-* Apache Cordova
+>
+> CSS
+>
+> JavaScript
+>
+> Jquery
+>
+> Apache Cordova
 
 ## Authors
 [Ranjith D](https://github.com/Ranjith-D)
