@@ -3,9 +3,9 @@ This is a web application which is used to bookmark a location of the car and fi
 
 ## Getting Started
 To run the application follow the steps
-1.Clone the reporsitory into your local windows machine.
-2.Only use Mozilla Firefox browser to open index.html page as firefox supports local server.
-3.Enjoy the application.
+* 1.Clone the reporsitory into your local windows machine.
+* 2.Only use Mozilla Firefox browser to open index.html page as firefox supports local server.
+* 3.Enjoy the application.
 
 ## Prerequisites
 * Windows OS
@@ -15,11 +15,11 @@ To run the application follow the steps
 <img src="splash.png">
 
 ## Built With
-* HTML
-* CSS
-* JavaScript
+*HTML
+*CSS
+*JavaScript
 * Jquery
-* Apache Cordova
+*Apache Cordova
 
 ## Authors
 [Ranjith D](https://github.com/Ranjith-D)
